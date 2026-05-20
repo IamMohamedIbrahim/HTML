@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Application Form</title>
+  <link rel="stylesheet" href="C:\xampp\Copied HTML and CSS files\For css works\index.html\School application.css">
+</head>
+<body>
+     <header>
+    <h1>Welcome to Our School</h1>
+    <nav>
+      <ul>
+        <li><a href="C:\xampp\Copied HTML and CSS files\For css works\index.html\index1.html">Home</a></li>
+        <li><a href="C:\xampp\Copied HTML and CSS files\For css works\index.html\application form for school.html">Application Form</a></li>
+        <li><a href="C:\xampp\Copied HTML and CSS files\For css works\index.html\about for school.html">About Us</a></li>
+        <li><a href="C:\xampp\Copied HTML and CSS files\For css works\index.html\Contact for school.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="form-container">
+    <h1>School Application Form</h1>
+    <form action="#" method="post">
+      
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">--Select--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+
+      <label for="address">Home Address</label>
+      <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+
+      <label for="grade">Applying for Grade</label>
+      <select id="grade" name="grade" required>
+        <option value="">--Select Grade--</option>
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+      </select>
+
+      <label for="parent">Parent/Guardian Name</label>
+      <input type="text" id="parent" name="parent" placeholder="Enter parent/guardian name" required>
+
+      <label for="signature">Signature</label>
+      <input type="text" id="signature" name="signature" placeholder="Type your name as signature" required>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>
